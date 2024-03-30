@@ -1,0 +1,50 @@
+body {
+    background-color: #f0f2f5; /* Light blue-gray background */
+    color: #333333; /* Dark gray text */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: 55px auto; /* Center the form horizontally */
+    padding: 20px;
+    background-color: #ffffff; /* White container background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333; /* Dark gray text for labels */
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc; /* Light gray border */
+    border-radius: 5px;
+    background-color: #f8f8f8; /* Light gray background for input fields */
+    color: #333333; /* Dark gray text */
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #66CCFF; /* Light blue submit button */
+    color: #ffffff; /* White text */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45A29E; /* Darker shade of blue on hover */
+}
